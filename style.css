@@ -1,6 +1,108 @@
-/*<style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> /*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Red Hat Display", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #e0e8ff;
+  font-size: 16px;
+}
 
+.card {
+  width: 90%;
+  max-width: 450px;
+  height: auto;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 10% auto;
+}
+
+.text-container {
+  padding: 7%;
+  text-align: center;
+}
+
+.title {
+  color: #1f2f56;
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.text-container p.message {
+  color: #8a8a8a;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.plan-conteiner {
+  background-color: #f5f7ff;
+  border-radius: 12px;
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan-music {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.plan-music div {
+  margin-left: 20px;
+}
+
+.price h5 {
+  font-weight: 900;
+  font-size: 15px;
+  color: #1f2f56;
+}
+
+.plan-conteiner-music div p {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+.plan-box a:hover {
+  text-decoration: none;
+  color: #3829e0;
+}
+
+a.proceed-btn {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #3829e0;
+  padding: 20px 0;
+  border-radius: 12px;
+  margin: 30px 0;
+  transition: background-color 0.3s ease;
+}
+
+a.proceed-btn:hover {
+  background-color: #7280a7;
+}
+
+a.cancel-btn {
+  color: #7280a7;
+  text-decoration: none;
+  font-weight: 900;
+  transition: color 0.3s ease;
+}
+a.cancel-btn:hover {
+  color: #1f2f56;
+}
