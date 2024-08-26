@@ -106,3 +106,7 @@ a.cancel-btn {
 a.cancel-btn:hover {
   color: #1f2f56;
 }
+a:hover {
+  color: #776de6;
+  
+}
