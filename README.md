@@ -13,4 +13,4 @@ Your users should be able to:
 
 ### Links
 
-- Live Site URL: [link](https://blitz-flex.github.io/order-summary-component/)
+- Live Site URL: [link](https://blitz-flex.github.io/order-summary/)
